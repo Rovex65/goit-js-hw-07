@@ -26,7 +26,6 @@ const images = [
 ];
 
 const gallery = document.querySelector(".gallery");
-console.log(gallery);
 
 images.forEach((atributes) => {
   const li = document.createElement("li");
